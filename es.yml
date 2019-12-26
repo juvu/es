@@ -4,7 +4,7 @@ cluster.name: "es_cluster"
 # 节点名称,这儿我直接取名为 master
 node.name: zijiedian1
 # 是否可以成为master节点
-node.master: true
+node.master: false
 # 是否允许该节点存储数据,默认开启
 node.data: true
  
@@ -23,7 +23,7 @@ transport.tcp.port: 9300
  
  
 discovery.seed_hosts: ["192.168.13.218", "192.168.13.214"]
-cluster.initial_master_nodes: ["zhujiedian"] 
+cluster.initial_master_nodes: ["zhujiedian","zhujiedian1"] 
 # 手动指定可以成为 mater 的所有节点的 name 或者 ip，这些配置将会在第一次选举中进行计算
 #cluster.initial_master_nodes: ["zhujiedian"]
 
