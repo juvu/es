@@ -2,7 +2,7 @@
 cluster.name: "es_cluster"
  
 # 节点名称,这儿我直接取名为 master
-node.name: master
+node.name: zhujiedian
 # 是否可以成为master节点
 node.master: true
 # 是否允许该节点存储数据,默认开启
@@ -22,7 +22,7 @@ http.cors.allow-origin: "*"
 transport.tcp.port: 9300
  
 # 手动指定可以成为 mater 的所有节点的 name 或者 ip，这些配置将会在第一次选举中进行计算
-cluster.initial_master_nodes: ["192.168.13.218"]
+cluster.initial_master_nodes: ["zhujiedian"]
 
 bootstrap.memory_lock: false
 bootstrap.system_call_filter: false
