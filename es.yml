@@ -69,7 +69,7 @@ network.host: 0.0.0.0
 # The default list of hosts is ["127.0.0.1", "[::1]"]
 #
 # discovery.type: single-node
-discovery.seed_hosts: ["192.168.13.217"]
+# discovery.seed_hosts: ["192.168.13.217"]
 #
 # Bootstrap the cluster using an initial set of master-eligible nodes:
 #
