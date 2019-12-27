@@ -27,7 +27,7 @@ cluster.initial_master_nodes: ["192.168.13.218"]
 
 
 #这个地方卡了几个月了system_call_filter ，错误的语言没看懂
-bootstrap.memory_lock: true
+bootstrap.memory_lock: false
 bootstrap.system_call_filter: false
 
 xpack.license.self_generated.type: trial
